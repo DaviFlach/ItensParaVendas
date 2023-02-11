@@ -1,0 +1,70 @@
+#titulo  {
+    font-size: 100%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #444;
+
+}
+body {
+    font-size: 150%;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-image: url(https://cdn.wallpapersafari.com/29/17/5lTj7i.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+tr {
+    text-align: center;
+    border: solid black 1px;
+    
+}
+
+th,
+td {
+    border-right: solid black 1px;  
+    border-top: solid 0.5px;
+    padding: 7px;
+
+}
+.vendido {
+    text-decoration-line: line-through;
+    font-size: 80%;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(164, 72, 46);
+}
+
+tr.linhas:hover {
+
+    background-color:
+        #444;
+    color: aliceblue;
+    
+}
+
+.linhas>td {
+    font-size: 80%;
+
+}
+
+th {
+    background-color: #444;
+    color: rgb(211, 227, 244);
+    font-weight: bold;
+
+
+}
