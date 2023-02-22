@@ -99,10 +99,16 @@ th {
     display: flex;
     gap: 20px;
     color: #E8F1F2;
-    justify-content: end;
+    justify-content: center;
     padding-right: 90px;
     position: fixed;
     padding-left: 100px;
+    background-color: #13293D;
+    border-radius: 20px;
+    margin: auto;
+    align-items: center;
+    width: 10px;
+    height: 30px;
 }
 .fa-whatsapp:hover{
     cursor: pointer;
