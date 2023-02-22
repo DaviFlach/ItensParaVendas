@@ -1,72 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
 #titulo  {
+    padding: 30px;
     font-size: 100%;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Sarala', sans-serif;
+
     text-align: center;
-    color: #444;
+    color: #E8F1F2;
+    cursor: default;
 
 }
 body {
     font-size: 150%;
     text-transform: capitalize;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Sarala', sans-serif;
     
-    background-image: url(https://cdn.wallpapersafari.com/29/17/5lTj7i.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(68.15deg, #13293D 16.62%, #247BA0 85.61%);
+    background-blend-mode: color ;
+    background-color: rgba(0, 0, 0, 0.4);
+
 
 }
 
-table {
+
+.tabela{
+    
+    border: none;
     border-collapse: collapse;
-    background-color: white;
+    background-color: #E8F1F2;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
-
+    margin-bottom: 50px;
+    border-radius: 20px;
+    
+    
 }
-
-
-tr {
+.linhas {
+    
     text-align: center;
-    border: solid black 1px;
+    border-left: solid rgb(27, 5, 5) 1px;
     
 }
 
-th,
-td {
-    border-right: solid black 1px;  
-    border-top: solid 0.5px;
-    padding: 7px;
 
+td {
+    
+    border-right: solid black 1px;  
+    /* border-top: solid 0.5px; */
+    padding: 7px;
+    
+}
+
+th{
+    padding: 10px;
+    
+    
 }
 .vendido {
     text-decoration-line: line-through;
     font-size: 80%;
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(164, 72, 46);
+    background-color: #E8F1F2;
 }
 
-tr.linhas:hover {
+.linhas:hover {
 
-    background-color:
-        #444;
+    background-color:#247BA0;
     color: aliceblue;
+    transform: scale(1.05);
+    transition: all 700ms ease;
+    cursor: pointer;
+    
     
 }
 
-.linhas>td {
-    font-size: 80%;
-
-}
 
 th {
-    background-color: #444;
-    color: rgb(211, 227, 244);
+    background-color:#13293D;
+    color: #E8F1F2;
     font-weight: bold;
+    font-family: 'Sarala', sans-serif;
+    
+}
 
+.sociais{
+    display: flex;
+    gap: 20px;
+    color: #E8F1F2;
+    justify-content: end;
+    padding-right: 90px;
+    position: fixed;
+    padding-left: 100px;
+}
+.fa-whatsapp:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 700ms ease;
+    color: #1db954; 
+}
+.fa-instagram:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 700ms ease;
+    color: #ab218b; 
+    
+}
+.fa-facebook:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 700ms ease;
+    color:  #3d7db1; 
 
+}
+.final-logo{
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    line-height: 79.47px;
+    text-align: center;
+    padding-top: 10px;
+    color: #E8F1F2;
+    padding-bottom: 20px;
 }
 
 
