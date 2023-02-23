@@ -75,23 +75,16 @@ th{
     
     
 }
-.vendido {
-    text-decoration-line: line-through;
-    font-size: 80%;
-    text-transform: capitalize;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #E8F1F2;
-}
+
 
 .linhas:hover, .linhas1:hover {
 
-    background-color:#247BA0;
+    background-color: #20527a;
     color: aliceblue;
-    transform: scale(1.05);
-    transition: all 700ms ease;
+    transform: scale(1.01);
+    transition: all 400ms ease;
     cursor: pointer;
-    
-    
+    background-blend-mode: color ;
 }
 
 
