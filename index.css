@@ -21,6 +21,8 @@
     cursor: default;
 
 }
+
+
 body {
     font-size: 150%;
     text-transform: capitalize;
@@ -33,6 +35,9 @@ body {
 
 }
 
+.nolabel {
+    cursor: default;
+}
 
 .tabela{
     
@@ -46,7 +51,10 @@ body {
     
     
 }
-.linhas {
+.linhas1{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.linhas, .linhas1 {
     
     text-align: center;
     border-left: solid rgb(27, 5, 5) 1px;
@@ -75,7 +83,7 @@ th{
     background-color: #E8F1F2;
 }
 
-.linhas:hover {
+.linhas:hover, .linhas1:hover {
 
     background-color:#247BA0;
     color: aliceblue;
@@ -100,15 +108,8 @@ th {
     gap: 20px;
     color: #E8F1F2;
     justify-content: center;
-    padding-right: 90px;
-    position: fixed;
-    padding-left: 100px;
-    background-color: #13293D;
-    border-radius: 20px;
-    margin: auto;
-    align-items: center;
-    width: 10px;
-    height: 30px;
+   
+   
 }
 .fa-whatsapp:hover{
     cursor: pointer;
@@ -138,6 +139,7 @@ th {
     padding-top: 10px;
     color: #E8F1F2;
     padding-bottom: 20px;
+    cursor: default;
 }
 
 
