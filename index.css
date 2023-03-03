@@ -95,9 +95,11 @@ th{
 }
 
 
-
-th {
+.nolabel{
+    border-radius: 20px;
     background-color:#13293D;
+}
+th {
     color: #E8F1F2;
     font-weight: bold;
     font-family: 'Sarala', sans-serif;
