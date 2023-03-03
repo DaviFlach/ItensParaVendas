@@ -159,26 +159,24 @@ th {
 
 @media(max-width: 850px){
     .tabela{
-        width: 80%;
-        font-size: 10px;
+        width: 95%;
+        font-size: 15px;
     }
     .fa-whatsapp, .fa-instagram{
-        font-size: 10px;
+        font-size: 20px;
     }
     .sociais{
         bottom: 5%;
     }
     #titulo{
-        font-size: 16px;
-    }
-    html{
-        height: 100%;
-    }
-    .final-logo{
         font-size: 20px;
+    }
+ 
+    .final-logo{
+        font-size: 25px;
         padding-top: 0px;
     }
-    
+
     
 }
 
