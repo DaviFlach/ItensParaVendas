@@ -19,6 +19,7 @@
     text-align: center;
     color: #E8F1F2;
     cursor: default;
+    
 
 }
 
@@ -31,8 +32,9 @@ body {
     background: linear-gradient(68.15deg, #13293D 16.62%, #247BA0 85.61%);
     background-blend-mode: color ;
     background-color: rgba(0, 0, 0, 0.4);
-
-
+    
+    
+    
 }
 
 .nolabel {
@@ -57,14 +59,16 @@ body {
 .linhas, .linhas1 {
     
     text-align: center;
-    border-left: solid rgb(27, 5, 5) 1px;
+    /* border-left: solid rgb(27, 5, 5) 1px; */
     
 }
 
 
 td {
-    
-    border-right: solid black 1px;  
+    text-align: justify;
+    text-indent: 10px;
+   
+    /* border-right: solid black 1px;   */
     /* border-top: solid 0.5px; */
     padding: 7px;
     
@@ -74,11 +78,13 @@ th{
     padding: 10px;
     
     
+    
 }
 
 
-.linhas:hover, .linhas1:hover {
 
+.linhas:hover, .linhas1:hover {
+    
     background-color: #20527a;
     color: aliceblue;
     transform: scale(1.01);
@@ -86,6 +92,7 @@ th{
     cursor: pointer;
     background-blend-mode: color ;
 }
+
 
 
 th {
@@ -98,32 +105,46 @@ th {
 
 .sociais{
     display: flex;
-    gap: 20px;
-    color: #E8F1F2;
+    gap: 5px;
     justify-content: center;
+    color: #E8F1F2;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    /* background-color: #071727; */
+    /* padding: 10px 15px; */
+    /* border-radius: 60px; */
+    
    
    
 }
+.fa-instagram{
+    /* padding: 10px 15px; */
+    background-color: #071727;
+    border-radius: 60px;
+    padding: 10px 15px;
+}
+
+.fa-whatsapp {
+    background-color: #071727;
+    border-radius: 60px;
+    padding: 10px 15px;
+}
+
 .fa-whatsapp:hover{
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: all 700ms ease;
     color: #1db954; 
 }
 .fa-instagram:hover{
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: all 700ms ease;
     color: #ab218b; 
     
 }
-.fa-facebook:hover{
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: all 700ms ease;
-    color:  #3d7db1; 
 
-}
 .final-logo{
     font-family: 'Righteous', cursive;
     font-size: 40px;
