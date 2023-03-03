@@ -10,6 +10,7 @@
 }
 
 
+
 #titulo  {
     padding: 30px;
     font-size: 100%;
@@ -154,6 +155,31 @@ th {
     color: #E8F1F2;
     padding-bottom: 20px;
     cursor: default;
+}
+
+@media(max-width: 850px){
+    .tabela{
+        width: 80%;
+        font-size: 10px;
+    }
+    .fa-whatsapp, .fa-instagram{
+        font-size: 10px;
+    }
+    .sociais{
+        bottom: 5%;
+    }
+    #titulo{
+        font-size: 16px;
+    }
+    html{
+        height: 100%;
+    }
+    .final-logo{
+        font-size: 20px;
+        padding-top: 0px;
+    }
+    
+    
 }
 
 
